@@ -1,7 +1,7 @@
 public class Person {
-  private String _firstName;
-  private String _lastName;
-  private int _age;
+  protected String _firstName;
+  protected String _lastName;
+  protected int    _age;
 
   public Person(String firstName, String lastName, int age) {
     _firstName = firstName;
