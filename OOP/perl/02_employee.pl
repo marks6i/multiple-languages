@@ -1,10 +1,12 @@
 #!/usr/bin/env perl
 
+use strict;
+
 use Employee;
 
-$object = new Employee( "Mohammad", "Saleem", 32);
+my $object = new Employee( "Mohammad", "Saleem", 32);
 # Get first name which is set using constructor.
-$firstName = $object->getFirstName();
+my $firstName = $object->getFirstName();
 
 print "Before Setting First Name is : $firstName\n";
 

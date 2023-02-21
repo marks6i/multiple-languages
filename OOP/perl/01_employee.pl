@@ -1,10 +1,11 @@
 #!/usr/bin/env perl
+use strict;
 
 use Person;
 
-$object = new Person( "Mohammad", "Saleem", 32);
+my $object = new Person( "Mohammad", "Saleem", 32);
 # Get first name which is set using constructor.
-$firstName = $object->getFirstName();
+my $firstName = $object->getFirstName();
 
 print "Get First Name from constructor : $firstName\nCalling helper function to set new name\n";
 

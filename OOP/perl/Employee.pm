@@ -25,7 +25,7 @@ sub getFirstName {
    my( $self ) = @_;
    # This is child class function.
    print "This is child class helper function\n";
-   return $self->{_firstName};
+   return "The Amazing $self->{_firstName}";
 }
 
 # Add more methods
