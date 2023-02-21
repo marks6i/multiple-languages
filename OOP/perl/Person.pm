@@ -49,7 +49,7 @@ sub AUTOLOAD {
 
 sub fullName {
    my $self = shift;
-   return $self->{_firstName} . " " . $self->{_lastName};
+   return $self->getFirstName() . " " . $self->{_lastName};
 }
 
 sub DESTROY {

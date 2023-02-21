@@ -11,7 +11,7 @@ my $firstName = $object->firstName;
 print "Get First Name from constructor : $firstName\nCalling setter to set new name\n";
 
 # Now Set first name using helper function.
-$object->firstName( "Mohd." );
+$object->firstName( "Pete" );
 
 # Now get first name set by helper function.
 $firstName = $object->firstName;
